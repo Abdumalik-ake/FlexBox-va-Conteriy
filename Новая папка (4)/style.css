@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+h1{
+    text-align: center;
+
+}
+
+.header-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    width: 300px;
+    height: 140px;
+    
+}
+
+main {
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+main div{
+    background-color: black;
+    color: #fff;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+b{
+    color: yellow;
+}
